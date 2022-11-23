@@ -1,7 +1,7 @@
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("Ì½Ë÷","½øÈ¡","ÇÚË¼","ÇóÖª","ºñµÂ","²©Ñ§","Ã÷Ö¾","ºÍĞ³","ºÏ×÷","Ï¸ÖÂ","ÌôÕ½","Ö¾¼á");
+        var a = new Array("æ¢ç´¢","è¿›å–","å‹¤æ€","æ±‚çŸ¥","åšå¾·","åšå­¦","æ˜å¿—","å’Œè°","åˆä½œ","ç»†è‡´","å¿—åš");
         var $i = $("<span></span>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
