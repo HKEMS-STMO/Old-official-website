@@ -92,6 +92,6 @@ visits = parseInt(visits) + 1
 
 setCookie("counter", visits, now)
 
-document.write("欢迎光临本站，本站已有" + visits + "次访问！")
+document.write("鏈珯宸叉湁" + visits + "娆¤闂紒")
 
 // -->
