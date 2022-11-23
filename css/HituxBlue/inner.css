@@ -1,0 +1,640 @@
+#body #InnerBanner{
+   width:980px;
+   margin:auto;}
+
+#body .inner{
+	width:980px;
+	margin:auto;}
+#body .inner .left{
+	width:220px;
+	float:left;}
+#body .inner .right{
+	width:744px;
+	float:right;
+	border-left:1px solid #DDDDDD;
+	padding-bottom:50px;}
+#body .inner .left .Sbox{
+	width:218px;
+	padding-bottom:20px;
+	font-size:12px;
+	}
+
+#body .inner .left .Sbox .topic{
+	
+	font-size:12px;
+	font-family:"Microsoft Yahei";
+	margin:px 0px 10px 0px;
+	line-height:30px;
+	border-bottom:2px solid #DDDDDD;
+	padding-left:10px;
+	color:#931916;
+	font-weight:bold;}
+#body .inner .left .Sbox .blank ul {
+	padding:0px 0px;}
+#body .inner .left .Sbox .blank ul li{
+	cursor:pointer;
+	
+}
+#body .inner .left .Sbox .blank .current a{
+	background:#931916;
+	border-bottom:1px solid #FFFFFF;
+	}	
+#body .inner .left .Sbox .blank .current a{
+	color:#FFFFFF;}
+#body .inner .left .Sbox .blank ul li a{
+	display:block;
+	height:35px;
+	line-height:35px;
+	padding-left:30px;
+	border-bottom:1px dotted #DDDDDD;
+	background:url("/images/Hituxblue/box_icon1.png") no-repeat 12px 12px;}	
+#body .inner .left .Sbox .blank ul li a:hover{
+	background:#931916;
+	border-bottom:1px solid #FFFFFF;
+	color:#FFFFFF;
+	text-decoration:none;}
+
+#body .inner .left .Sbox .list dl{
+	padding:0px 20px;
+	}
+#body .inner .left .Sbox .list dl dt{
+	font-family:Arial;
+	color:#666666;
+	line-height:20px;
+	font-size:10px;}
+
+#body .inner .left .Sbox .list dl dd{
+	line-height:25px;
+	border-bottom:1px dotted #DDDDDD;}
+
+
+#body .inner .right  .Position{
+	font-size:12px;
+	line-height:33px;
+	background:url("/images/Hituxblue/box_bg5.jpg") repeat left top;
+	}
+#body .inner .right  .Position a{
+	color:#666666;}
+#body .inner .right  .Position span{
+	padding-left:10px;
+	}
+
+
+#body .inner .right .main{
+	padding:10px 20px;
+	font-size:12px;}
+
+/*content*/
+#body .inner .right .main .content .title h3{
+	text-align:center;
+	font-size:18px;
+	font-weight:normal;
+	font-family:"Microsoft Yahei";}
+#body .inner .right .main .content .infos{
+	font-size:12px;
+	line-height:40px;
+	color:#666666;
+	text-align:center;}
+#body .inner .right .main .content .maincontent{
+	font-size:12px;}
+#body .inner .right .main .content .maincontent p{
+	padding:5px 0px;
+	line-height:200%;
+	}
+#body .inner .right .main .content .download{
+	background:url("/images/Hituxblue/downicon.gif") no-repeat 15px 7px;
+	padding-left:55px;
+	border:1px solid #F5F5F5;
+	line-height:40px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:10px 0px;}
+
+#body .inner .right .main .content .prenext{
+	padding:10px 0px;
+	margin-top:10px;}
+#body .inner .right .main .content .prenext ul li{
+	line-height:30px;
+	background:url("/images/Hituxblue/jiantou.gif") no-repeat 0px 1px;
+	padding-left:15px;}				
+				
+#body .inner .right .main .ArticleList{
+	font-size:12px;}
+#body .inner .right .main .ArticleList td{
+	line-height:35px;
+	border-bottom:1px dashed #CCC;}	
+#body .inner .right .main .ArticleList .fw_t{
+	font-size:12px;
+	}
+#body .inner .right .main .ArticleList .fw_s{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;}
+
+#body .inner .right .main .ArticleList ul li span{
+	font-weight:bold;
+	color:#931916;
+	padding-right:20px;}
+#body .inner .right .main .ArticleList ul li p{
+	line-height:200%;
+	color:#999;
+	padding:5px 0px;}
+#body .inner .right .main .ArticleList ul li{
+	border-bottom:1px dotted #dddddd;
+	padding:10px 0px 10px 0px;}
+
+/* recruit */
+
+#body .inner .right .main .RecruitList{
+	}
+#body .inner .right .main .RecruitList td{
+	line-height:35px;
+	border-bottom:1px solid #CCC;
+	font-size:12px;}	
+#body .inner .right .main .RecruitList .Rtitle{
+	background:#F5F5F5;
+	color:#931916;
+	font-size:14px;
+	padding-left:10px;
+	height:30px;
+	line-height:30px;}
+#body .inner .right .main .RecruitList .Rtitle span{
+	text-align:right;
+	font-size:12px;}
+/*product*/
+#body .inner .left .Sbox .ClassNav{
+	padding:0px 10px;}
+	
+#body .inner .left .Sbox .ClassNav .NavTree ul{
+}
+	
+#body .inner .left .Sbox .ClassNav .NavTree ul li{
+position: relative;
+z-index:1000;
+}
+	
+/*1st level sub menu style */
+#body .inner .left .Sbox .ClassNav .NavTree ul li ul{
+left: 198px; /* Parent menu width - 1*/
+position: absolute;
+width: 160px; /*sub menu width*/
+top: 0;
+display: none;
+border:1px solid #931916;
+border-top:2px solid #931916;
+background:#FFFFFF;
+filter:progid:DXImageTransform.Microsoft.Shadow(Color=#999999, Strength=3, Direction=135);
+
+}
+/*All subsequent sub menu levels offset */
+#body .inner .left .Sbox .ClassNav .NavTree ul li ul li ul{ 
+left: 159px; /* Parent menu width - 1*/
+z-index:100px;}
+/* menu links style */
+#body .inner .left .Sbox .ClassNav .NavTree ul li a{
+	display: block;
+	cursor:pointer;
+	line-height:35px;
+	border-bottom:1px dotted #DDDDDD;
+	padding-left:10px;
+	height:35px;}
+#body .inner .left .Sbox .ClassNav .NavTree ul li li{
+	background:url("/images/Hituxblue/box_icon1.png") no-repeat 12px 12px;
+	padding-left:0;
+	text-align:center;
+}
+#body .inner .left .Sbox .ClassNav .NavTree ul li li a{
+	border-bottom:1px solid #DDDDDD;
+	}
+#body .inner .left .Sbox .ClassNav .NavTree ul .current a{
+	background:#931916;
+	color:#FFFFFF;}
+#body .inner .left .Sbox .ClassNav .NavTree ul .current li a{
+	background:#FFFFFF;
+	color:#000000;}
+		
+#body .inner .left .Sbox .ClassNav .NavTree ul li a:hover{
+color: white;
+background:#931916;
+text-decoration:none;
+}
+#body .inner .left .Sbox .ClassNav .NavTree .subfolderstyle{
+background: url(/images/Hituxblue/arrow-list.gif) no-repeat 150px center ;
+}
+/* Holly Hack for IE \*/
+* html #body .inner .left .Sbox .ClassNav .NavTree ul li { float: left; height: 1%; }
+* html #body .inner .left .Sbox .ClassNav .NavTree ul li a { height: 1%; }
+/* End */	
+
+#body .inner .right .main .content .ProInfo .image{
+	float:left;}	
+	
+#body .inner .right .main .content .ProInfo .column{
+	float:right;
+	width:270px;}
+	
+#body .inner .right .main .content .ProInfo .image img{
+	width:270px;
+	height:270px;
+	}
+
+#body .inner .right .main .content .ProInfo .image a{
+	display:block;
+	width:270px;
+	height:270px;
+	border:2px solid #F5F5F5;
+	padding:2px;	
+	}
+#body .inner .right .main .content .ProInfo .image a:hover{
+	border:2px solid #931916;}
+#body .inner .right .main .content .ProInfo .column .title{
+	border-bottom:1px solid #ccc;
+	padding:10px 0px;}
+#body .inner .right .main .content .ProInfo .column .title h3{
+	text-align:left;}
+#body .inner .right .main .content .ProInfo .column .infos{
+	text-align:left;}
+#body .inner .right .main .content .ProInfo .column ul li{
+	line-height:40px;
+	height:40px;}
+
+#body .inner .right .main .content .ProInfo .column ul li span{
+	width:100px;
+	height:20px;
+	padding:3px;
+	font-weight:bold;
+	}					
+#body .inner .right .main .content .ProInfo .column ul li p{
+	color:#666666;}
+#body .inner .right .main  .IntroTitle{
+	font-size:14px;
+	line-height:35px;
+	border-left:3px solid #931916;
+	margin:10px 0px;
+	padding-left:10px;
+	color:#931916;
+	background-color:#f5f5f5;
+	font-weight:bold;}
+
+
+#body .inner .right .main .content .ProInfo .ImageList{
+	float:left;
+	width:120px;
+	padding-left:10px;
+	height:270px;
+	overflow:auto;
+	SCROLLBAR-FACE-COLOR: #f5f5f5; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #f5f5f5 ; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR:#931916; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;}
+#body .inner .right .main .content .ProInfo .ImageList ul li img{
+	width:90px;
+	height:90px;
+	padding:1px;
+	border:1px solid #ccc;
+	}
+#body .inner .right .main .content .ProInfo .ImageList ul li img:hover{
+	border:1px solid #931916;}
+
+
+
+
+	
+
+#body .inner .right .main .content .MorePro  .albumblock .inner{
+	width:206px;
+	height:238px;
+	margin:0;
+	background:url("/images/hituxblue/album_bg.png") no-repeat center bottom;
+	border:none;
+	padding:2px;}
+
+#body .inner .right .main .content .MorePro .albumblock .inner img{
+	width:200px;
+	height:200px;
+	border:none;
+	padding:2px;}
+
+#body .inner .right .main .content .MorePro  .albumblock .inner .albumtitle{
+	width:206px;
+	background:none;
+	color:#931916;
+	}
+	
+#body .inner .right .main .content .CaseBlock li{
+	width:330px;
+	float:left;
+	padding-left:10px;
+	}
+#body .inner .right .main .content .CaseBlock .Cimg a{
+	display:block;
+	border:1px solid #F5F5F5;
+	padding:1px;}
+#body .inner .right .main .content .CaseBlock .Cimg a:hover{
+	border:1px solid #931916;}		
+#body .inner .right .main .content .CaseBlock .case_ct{ height:30px; line-height:30px; color:#2586BE; background:#E5F4FC; font-weight:bold;}
+#body .inner .right .main .content .CaseBlock .case_txt{ height:35px; line-height:35px; background:url(/images/Hituxblue/xx.jpg) repeat-x; text-align:left;font-size:12px;}
+#body .inner .right .main .content .CaseBlock .case_mc{ color:#1C3B67;}
+#body .inner .right .main .content .CaseBlock .hycd_ct{ height:35px; line-height:35px;  color:#fff;  font-weight:bold; padding-left:40px;}
+#body .inner .right .main .content .CaseBlock .hycd_ct a{ color:#fff;}
+#body .inner .right .main .content .CaseBlock .hycd_ct a:hover{ color:#FFFACC}
+#body .inner .right .main .content .CaseBlock .hycd_ct a:visited{ color:#fff}
+#body .inner .right .main .content .CaseBlock .hycd_mc{ color:#ff6600;}
+#body .inner .right .main .content .CaseBlock .ttp{ margin-top:10px; margin-bottom:10px;}	
+
+
+/* sitemap */
+#body .inner .right .main .SiteMap{
+	padding:0px 10px;}
+		
+#body .inner .right .main .SiteMap ul li{
+	font-weight:bold;
+	line-height:25px;
+	padding:10px 20px;
+	border-bottom:1px dashed #CCCCCC;
+	font-size:14px;
+	background:url("/images/Hituxblue/ico4.jpg") no-repeat left 18px;}
+
+
+#body .inner .right .main .SiteMap ul li ul li{
+	font-weight:normal;
+	border-bottom:none;
+	font-size:12px;
+	background:none;
+	padding:5px 0px;}
+					
+
+
+
+/* FeedBack */
+#body .inner .right .main .FeedBack {}
+#body .inner .right .main .FeedBack .Fleft{
+	width:90px;
+	float:left;
+	}
+#body .inner .right .main .FeedBack .Fleft .Ficon{
+	padding:0px  12px;
+	}
+#body .inner .right .main .FeedBack .Fleft .Fname{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:5px;
+	color:#931916;
+	font-weight:bold;}		
+#body .inner .right .main .FeedBack .Fright{
+	float:left;
+	width:600px;
+	padding-bottom:10px;
+	}
+#body .inner .right .main .FeedBack .Fright .Fcontent .Ftime{
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#931916;
+	padding:0px 20px 5px 20px;}	
+#body .inner .right .main .FeedBack .Fright .Fcontent{
+	width:600px;
+	background:url("/images/Hituxblue/PostBG.jpg") no-repeat left top;
+	padding:10px 0px;
+	}
+#body .inner .right .main .FeedBack .Fright .Fcontent p{
+	padding:0px 20px 5px 50px;}
+
+#body .inner .right .main .FeedBack .Fright .Fcontent .Freply .FRtitle{
+	margin-left:20px;
+	line-height:20px;
+	color:#FFFFFF;
+	height:25px;
+	background:url("/images/Hituxblue/picon.gif") no-repeat 2px 0px;
+	padding-left:20px;
+	font-weight:bold;}
+#body .inner .right .main .FeedBack .Fright .Fcontent .Freply p{
+	color:#989E4D}	
+#body .inner .right .main .FeedBack .Fright .Fline{
+	float:right;
+	width:572px;
+	border-top:1px solid #EDEDEF;
+	filter:progid:DXImageTransform.Microsoft.Shadow(Color=#999999, Strength=1, Direction=180);} 
+
+#body .inner .right .main .FeedBack .IntroTitle{
+	width:665px;
+	margin:auto;
+	}
+#body .inner .right .main .FeedBack .commentbox{
+	padding-top:5px;}	
+#body .inner .right .main .FeedBack .commentbox #commentform td{
+	height:40px;}
+#body .inner .right .main .FeedBack .commentbox #commentform input{
+	height:25px;
+	line-height:25px;}
+
+#body .inner .right .main .FeedBack .commentbox #commentform .Cbutton{
+	line-height:25px;
+	background:#931916;
+	border:none;
+	color:#FFFFFF;
+	font-size:14px;
+	cursor:pointer;}
+	
+#body .inner .right .main .FeedBack .commentlist dt{
+	padding:5px 10px;
+	background-color:#dededc;
+	height:22px;
+	line-height:22px;
+	font-size:12px;}	
+#body .inner .right .main .FeedBack .commentlist dd{
+	padding:15px 0px 15px 0px;
+	line-height:180%;
+	font-size:14px;
+	}	
+#body .inner .right .main .FeedBack .commentlist dd  b{
+	color:#458D3A;}
+
+#body .inner .right .main .FeedBack .commentlist dd span{
+	color:#A00000;}	
+#body .inner .right .main .FeedBack .commentlist p{
+	padding:0px;
+	line-height:180%;
+	margin:0px;}
+							
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(/images/colorbox/overlay.png) repeat 0 0;}
+#colorbox{}
+    #cboxTopLeft{width:21px; height:21px; background:url(/images/colorbox/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(/images/colorbox/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(/images/colorbox/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(/images/colorbox/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(/images/colorbox/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(/images/colorbox/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(/images/colorbox/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(/images/colorbox/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(/images/colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(/images/colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(/images/colorbox/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(/images/colorbox/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(/images/colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+  Feel free to remove this and the /ie6/ directory if you have dropped IE6 support.
+*/
+.cboxIE6 #cboxTopLeft{background:url(/images/colorbox/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(/images/colorbox/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(/images/colorbox/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(/images/colorbox/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(/images/colorbox/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(/images/colorbox/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(/images/colorbox/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(/images/colorbox/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}
+
+/*jcarousel*/
+.jcarousel-skin .jcarousel-container {
+	margin:0;
+	padding:0;
+}
+.jcarousel-skin {
+    height: 112px;
+}
+.jcarousel-skin .jcarousel-direction-rtl {
+	direction: rtl;
+}
+#mycarousel li {
+	margin:0px 20px 0px 0px;
+	padding:0;
+}
+.jcarousel-skin .jcarousel-container-horizontal {
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+.jcarousel-skin .jcarousel-clip {
+	overflow: hidden;
+}
+.jcarousel-skin .jcarousel-clip-horizontal {
+	width: 100%;
+}
+.jcarousel-skin .jcarousel-item {
+	width: 220px;
+}
+.jcarousel-skin .jcarousel-item-horizontal {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.jcarousel-skin .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+.jcarousel-navi {
+	background:url(/images/colorbox/nav-inset.png) no-repeat top center;
+	position:absolute;
+	width:100%;
+	height:2px;
+	bottom:-10px;
+}
+/* IE 8 only stuff */
+.jcarousel-navi {
+	z-index:-99\9;
+}
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin .jcarousel-next-horizontal {
+	background: transparent url(/images/colorbox/next.png) no-repeat 0 0;
+	position: absolute;
+	top: 42px;
+	right: -40px;
+	width: 27px;
+	height: 26px;
+	cursor: pointer;
+	z-index:999;
+}
+.jcarousel-skin .jcarousel-next-horizontal:hover, .jcarousel-skin .jcarousel-next-horizontal:focus {
+	background-position: -28px 0;
+}
+.jcarousel-skin .jcarousel-next-horizontal:active {
+	background-position: -54px 0;
+}
+.jcarousel-skin .jcarousel-next-disabled-horizontal, .jcarousel-skin .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin .jcarousel-next-disabled-horizontal:focus, .jcarousel-skin .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background-position: -96px 0;
+}
+.jcarousel-skin .jcarousel-prev-horizontal {
+	background: transparent url(/images/colorbox/prev.png) no-repeat 0 0;
+	position: absolute;
+	top: 42px;
+	left: -40px;
+	width: 27px;
+	height: 26px;
+	cursor: pointer;
+	z-index:999;
+}
+.jcarousel-skin .jcarousel-prev-horizontal:hover, .jcarousel-skin .jcarousel-prev-horizontal:focus {
+	background-position: -28px 0;
+}
+.jcarousel-skin .jcarousel-prev-horizontal:active {
+	background-position: -54px 0;
+}
+.jcarousel-skin .jcarousel-prev-disabled-horizontal, .jcarousel-skin .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin .jcarousel-prev-disabled-horizontal:focus, .jcarousel-skin .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background-position: -96px 0;
+}
+
+							
