@@ -13,5 +13,6 @@
         D = Math.floor((c-C)*60);
         //信息写入到DIV中
         span.innerHTML = "本站已垂死挣扎: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+        span.innerHTML = "本网站托管于：Github"
     }
     setInterval(runtime, 1000);
