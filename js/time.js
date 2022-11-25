@@ -11,6 +11,7 @@
         c = (b-B)*60;
         C = Math.floor((b-B)*60);
         D = Math.floor((c-C)*60);
-        span.innerHTML = "<a href="github.com">本网站托管于：Github <img src="/github.png"  alt="github" /></a><br>本站已垂死挣扎: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+        <a href="github.com">本网站托管于：Github <img src="/github.png"  alt="github" /></a><br>
+        span.innerHTML = "本站已垂死挣扎: "+A+"天"+B+"小时"+C+"分"+D+"秒"
     }
     setInterval(runtime, 1000);
