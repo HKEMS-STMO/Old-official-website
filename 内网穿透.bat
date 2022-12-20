@@ -1,1 +1,0 @@
-cmd.exe /k npc.exe -server=free.svipss.top:8024 -vkey=764302c319
