@@ -2,8 +2,10 @@ html{
     height: 100%;
 }
 body{
+    background-image:url("https://f0.0sm.com/node0/2022/12/8638ED64E2BFFED1-e453e450a327a7db.jpg");
+    background-size: cover;
     height: 100%;
-    background-image: url('./image/bg.jpg');
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     /* align-items: center; */
