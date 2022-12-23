@@ -14,7 +14,7 @@ body{
 section{
     width: 760px;
     height: 400px;
-    top:400px;
+    margin-top: 400px;
 }
 section div{
     width: 160px;
