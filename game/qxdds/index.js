@@ -28,7 +28,7 @@ setInterval(function(){
       object.delay(2000).slideUp();
     }
     
-},1000);
+},2000);
 
 
 // score 记录敲到千学的分数
