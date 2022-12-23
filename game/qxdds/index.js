@@ -38,7 +38,7 @@ $('.mouse').click(function(){
     $(this).hide();
     score+=1;
     $(" <span id='count'>得分 为"+score+"</span>").replaceAll('span');
-    $('#dazhong').append('<audio src="audio/dazhong.mp3" autoplay="autoplay" ></audio>');
+    $('#dazhong').append('<audio src="https://attachment.0sm.com/node0/2022/12/863A5B0B4EF4EA7A-2a8916432a3f9d57.mp3" autoplay="autoplay" ></audio>');
     setTimeout(function(){
         $('#dazhong').empty();
     },1000);
