@@ -41,5 +41,5 @@ $('.mouse').click(function(){
     $('#dazhong').append('<audio src="https://attachment.0sm.com/node0/2022/12/863A5B0B4EF4EA7A-2a8916432a3f9d57.mp3" autoplay="autoplay" ></audio>');
     setTimeout(function(){
         $('#dazhong').empty();
-    },1000);
+    },1);
 });
