@@ -11,6 +11,16 @@ body{
     /* align-items: center; */
     position: relative;
 }
+.tit{
+    font-size: 52pt;
+    text-align:center;
+    margin-top: 300px;
+}
+.tit2{
+    font-size: 52pt;
+    text-align:center;
+    margin-top: 350px;
+}
 section{
     width: 760px;
     height: 400px;
