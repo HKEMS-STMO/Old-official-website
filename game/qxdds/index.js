@@ -36,12 +36,10 @@ var score=0;
 $('.mouse').click(function(){
    
     $(this).hide();
-    score+=10;
+    score+=1;
     $(" <span id='count'>得分 为"+score+"</span>").replaceAll('span');
     $('#dazhong').append('<audio src="audio/dazhong.mp3" autoplay="autoplay" ></audio>');
     setTimeout(function(){
         $('#dazhong').empty();
     },1000);
 });
-
-
