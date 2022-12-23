@@ -41,5 +41,5 @@ $('.mouse').click(function(){
     $('#dazhong').append('<audio src="audio/dazhong.mp3" autoplay="autoplay" ></audio>');
     setTimeout(function(){
         $('#dazhong').empty();
-    },1);
+    },1000);
 });
