@@ -31,17 +31,6 @@ setInterval(function(){
 },1000);
 
 
-//鼠标锤子  图形
-$('body').mousedown(function(){
-    $('body').css({
-        cursor:'url("image/cursor-down.png"), auto'
-    });
-}).mouseup(function(){
-   $('body').css({
-    cursor:'url("image/cursor.png") ,auto'
-   });
-});
-
 // score 记录敲到地鼠的分数
 var score=0;
 $('.mouse').click(function(){
