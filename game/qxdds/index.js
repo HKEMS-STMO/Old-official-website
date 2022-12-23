@@ -34,11 +34,11 @@ setInterval(function(){
 //鼠标锤子  图形
 $('body').mousedown(function(){
     $('body').css({
-        cursor:'url("./image/cursor-down.png"), auto'
+        cursor:'url("image/cursor-down.png"), auto'
     });
 }).mouseup(function(){
    $('body').css({
-    cursor:'url("./image/cursor.png") ,auto'
+    cursor:'url("image/cursor.png") ,auto'
    });
 });
 
