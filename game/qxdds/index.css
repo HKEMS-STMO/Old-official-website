@@ -43,12 +43,12 @@ section div{
 
 #count{
     display:block;
-    width:110px;
-    height: 40px;
-    font-size: 20px;
+    width:165px;
+    height: 60px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px;
     background-color:brown;
     color: white;
     position: absolute;
