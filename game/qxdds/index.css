@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-    background-image:url("image/bg.jpg");
+    background-image:url("https://f0.0sm.com/node0/2022/12/863A5B1F7CE9ED0B-d09a7b06a55eef75.jpg");
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
@@ -14,7 +14,6 @@ body{
 section{
     width: 760px;
     height: 400px;
-    margin-top: 400px;
 }
 section div{
     width: 160px;
