@@ -1,0 +1,1 @@
+end.innerHTML = "Copyright 1998-2023 HKEMS-STMO All rights reserved.海口实验中学科技社 版权所有"
