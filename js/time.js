@@ -11,7 +11,6 @@
         c = (b-B)*60;
         C = Math.floor((b-B)*60);
         D = Math.floor((c-C)*60);
-        cyear.innerHTML = "Y.getTime()"
-        ctime.innerHTML = "已稳定运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+        span.innerHTML = "已稳定运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
     }
     setInterval(runtime, 1000);
