@@ -1,0 +1,19 @@
+.mingyan {
+    font-family: 华文楷体;
+    font-size: 24px;
+    text-align:center;
+}
+.head{
+    margin-bottom: 46px;
+}
+.visit{
+    margin-left: 20px;
+    text-align: left;
+    height: 14px;
+    color: #DDDDDD;
+    font-family: 华文楷体;
+    font-size: large;
+}
+.center{
+    text-align: center;
+}
