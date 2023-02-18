@@ -3,10 +3,12 @@
     font-size: 24px;
     text-align:center;
 }
-.head{
+
+.head {
     margin-bottom: 46px;
 }
-.visit{
+
+.visit {
     margin-left: 20px;
     text-align: left;
     height: 14px;
@@ -14,6 +16,28 @@
     font-family: 华文楷体;
     font-size: large;
 }
-.center{
+
+.center {
     text-align: center;
 }
+
+.infor{
+    font-size: 16px;
+    text-align: center;
+    font-family: 华文宋体;
+    color: #931916;
+}
+
+.infob{
+    font-size: 16px;
+    text-align: center;
+    font-family: 华文宋体;
+    color: #000080;
+}
+
+.caption {
+    text-align:center;
+    color: #931916;
+    font-size: 300%;
+    font-family: 华文楷体;
+ }
