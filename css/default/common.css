@@ -50,7 +50,8 @@ a:active{text-decoration:underline;}
 	overflow:hidden;}
 
 p{
-	line-height:180%;}
+	line-height:180%;
+}
 
 .ListDate{
 	color:#666666;
@@ -129,10 +130,7 @@ p{
 	text-align: center;
 	padding:0 24px;
 	line-height:35px;
-	background:url(/images/nav_bg2.jpg) no-repeat -8px 0px;}
-
-#wrapper #head #NavLink #sddm li a:hover
-{	}
+}
 
 #wrapper #head #NavLink #sddm div
 {	position: absolute;
@@ -195,7 +193,6 @@ p{
 	filter:alpha(opacity=70);
 	-moz-opacity:0.7;
 	opacity:0.7;
-	font-weight:; 
 	text-align:center;
 	cursor:pointer;
 	margin:auto;

@@ -38,6 +38,31 @@
 .caption {
     text-align:center;
     color: #931916;
-    font-size: 300%;
+    font-size: 350%;
     font-family: 华文楷体;
+ }
+
+ .content{
+    line-height: 10;
+    margin: 50 auto;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 华文楷体;
+ }
+
+ .photoclick{
+    font-weight: 600;
+	font-family: 华文楷体;
+	font-size: large;
+ }
+
+ .about{
+    font-size: x-large;
+    font-family: 楷体;
+ }
+
+ .about2{
+    font-size: large;
+    font-family: 等线;
+    line-height: 1.4;
  }
