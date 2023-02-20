@@ -10,8 +10,8 @@
 <link href="/css/default/talk.css" rel="stylesheet" type="text/css" />
 <link href="/css/HituxBlue/style.css" rel="stylesheet" type="text/css" />
 <link href="/css/HituxBlue/common.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/js/Click on special effects.js"></script>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/Click on special effects.js"></script>
 <script type="text/javascript" src="/js/Functions.js"></script>
 <script type="text/javascript" src="/js/md5.min.js"></script>
 <script type="text/javascript" src="/js/photo.js"></script>
@@ -89,7 +89,7 @@
 			</div>
 			<!--页眉结束-->
 			<div id="FocusBG" style="height: 980px">
-				<table align="center" style="width: 75%; height: 100%">
+				<table align="center" style="width: 75%; height: 100%;">
 					<!--标题开始-->
 					<tr>
 						<td class="center" style="height: 30%; width: 100%;">
@@ -159,27 +159,32 @@
 							<div class="about2">王千学一号（代号：QX-1）是21世纪20年代海口实验中学所属海口实验中学科技社抓总改造的一种单级式低空探空火箭。<br>王千学一号为无助推器的单级构型无控火箭，采用陕西中天火箭技术股份有限公司抓总研制的A-63型固体模型火箭发动机，火箭全箭总长32cm，起飞质量89.33克，可以完成低层大气王千学照片，王千学涂装滑翔机等各类任务器的发射任务。王千学一号于2022年10月14日正式立项研制。2022年10月14日，王千学一号在海口实验中学操场首次成功发射，将王千学校长照片送到低层大气。王千学一号研制成功，标志着海口实验中学科技社的探空火箭项目已步入正轨。</div>
 						</td>
 					</tr>
+					</tr>
 				</table>
 			</div>
 			<div style="height: 180px;"></div>
 		</div>
 	</div>
-
-	<div id="gitalk-container"></div>
+	<table align="center" style="width: 75%; height: 100%;">
+		<tr>
+			<td>
+				<div id="gitalk-container"></div>
+			</td>
+		</tr>
+	</table>
 	<script>
 		var gitalk = new Gitalk({
 			clientID: '25ac5e9ec97000de85f1',
 			clientSecret: '72d669f0b195de592bb6659f26b6a62080645830',
 			repo: 'talk',
-			owner: 'X-MQSI',          // 仓库的创建者，
-			admin: ['X-MQSI'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
-			id: md5(location.pathname),      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+			owner: 'X-MQSI',
+			admin: ['X-MQSI'],
+			id: md5(location.pathname),
 			language:'zh-CN',
-			distractionFreeMode: false  // 无干扰模式
+			distractionFreeMode: false
 	})
 	gitalk.render('gitalk-container')
 	</script>
-	
 	<div style="height: 100px;"></div>
 	<div class="mingyan">一个时代的精神是青年代表的精神，一个时代的性格是青年代表的性格</div>
 	<!--页脚开始-->
