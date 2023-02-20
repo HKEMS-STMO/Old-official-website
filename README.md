@@ -33,3 +33,5 @@ Haikou Experimental Middle School Science and Technology Club has a long history
 2022/11/30 修复了github路径大小写问题，修复了移动端显示不正常的问题。index.html变为跳转页，设计制作了手机端网页的第一个页面（页面开发中提示），主页底栏添加了海口实验中学标识。
 
 2022/12/2 index.html再次修改回pc页面。
+
+2023/1-2/ 重构网页，修复bug，精简网站，添加评论功能,网页模块化，修改开源协议...
