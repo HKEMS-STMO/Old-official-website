@@ -66,3 +66,8 @@
     font-family: 等线;
     line-height: 1.4;
  }
+
+ #grad {
+    background-color: rgba(0,125,194,0.7);
+    background-image: linear-gradient(rgb(0,125,194), rgba(77,195,233,0.6));
+}
