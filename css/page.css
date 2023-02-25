@@ -71,3 +71,10 @@
     background-color: rgba(0,125,194,0.7);
     background-image: linear-gradient(rgb(0,125,194), rgba(77,195,233,0.6));
 }
+
+.infolink{
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	font-size: 200%;
+}
