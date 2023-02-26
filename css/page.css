@@ -77,4 +77,12 @@
 	border-width: 1px;
 	text-align: center;
 	font-size: 200%;
+    color: black;
+}
+
+.end{
+    font-family: 华文楷体;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
 }
