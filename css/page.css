@@ -51,6 +51,7 @@
  }
 
  .photoclick{
+    text-align: center;
     font-weight: 600;
 	font-family: 华文楷体;
 	font-size: large;
@@ -67,11 +68,6 @@
     line-height: 1.4;
  }
 
- #grad {
-    background-color: rgba(0,125,194,0.7);
-    background-image: linear-gradient(rgb(0,125,194), rgba(77,195,233,0.6));
-}
-
 .infolink{
 	border-style: solid;
 	border-width: 1px;
@@ -83,6 +79,6 @@
 .end{
     font-family: 华文楷体;
     font-weight: 600;
-    font-size: 20px;
+    font-size: x-large;
     text-align:center;
 }
