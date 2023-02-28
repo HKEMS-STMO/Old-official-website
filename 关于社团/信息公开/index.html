@@ -16,7 +16,7 @@
 <script type="text/javascript" src="/js/md5.min.js"></script>
 <script type="text/javascript" src="/js/talk.js"></script>
 <script type="text/javascript" src="/js/time.js"></script>
-<script type="text/javascript" src="/js/end.js"></script>
+<script type="text/javascript" src="/js/SAE.js"></script>
 </style>
 </head>
 <body>
@@ -36,54 +36,9 @@
 					<div class="logo">
 						<a href="/index.html"><img alt="海口实验中学科技社" src="/images/up_images/logo.png" height="78.125" width="300" /></a>
 					</div>
-					<!--导航开始-->
-					<div class="tel">
-						<div id="NavLink">
-							<div class="NavBG">
-								<!--收缩导航条-->
-								<ul id='sddm'>
-									<li class='CurrentLi'>
-										<a href='/'>网站首页</a>
-									</li>
-									<li><a href='/关于社团/' onmouseover=mopen('m1') onmouseout='mclosetime()'>关于社团</a>
-										<div id='m1' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
-											<a href='/关于社团/社团介绍/'>社团介绍</a>
-											<a href='/关于社团/社团文化'>社团文化</a>
-											<a href='/关于社团/社团环境'>社团环境</a>
-											<a href='/关于社团/我们的荣誉'>我们的荣誉</a>
-											<a href='/关于社团/信息公开'>信息公开</a>
-										</div>
-									</li>
-									<li><a href='/新闻动态/' onmouseover=mopen('m2') onmouseout='mclosetime()'>新闻动态</a>
-										<div id='m2' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
-											<a href='/新闻动态/本社活动/'>本社活动</a>
-											<a href='/新闻动态/其他社团/'>其他社团</a>
-										</div>
-									</li>
-									<li><a href='/联系/' onmouseover=mopen('m3') onmouseout='mclosetime()'>联系我们</a>
-										<div id='m3' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
-											<a href='/联系/'>联络方式</a>
-										</div>
-									</li>
-									<li><a href='/大事记/' onmouseover=mopen('m4') onmouseout='mclosetime()'>大事记</a>
-										<div id='m4' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
-											<a href='/大事记/2022/'>2022年</a>
-										</div>
-									</li>
-									<li><a href='/友情链接/' onmouseover=mopen('m5') onmouseout='mclosetime()'>友情链接</a>
-										<div id='m5' onmouseover='mcancelclosetime()' onmouseout='mclosetime()'>
-											<a href="http://edu.hainan.gov.cn/">海南省教育厅</a>
-											<a href="http://dost.hainan.gov.cn/">省科学技术厅</a>
-											<a href="http://www.hksyzx.cn">海口实验中学</a>
-											<a href="http://www.haikouzx.com/">海口中学</a>
-										</div>
-									</li>
-								</ul>
-								<!--导航条结束-->
-							</div>
-						</div>
-					</div>
-					<!--导航结束-->
+                    <!--导航栏-->
+					<div id="navigationbar"></div>
+                    <!--导航栏-->
 				</div>
 			</div>
 			<!--页眉结束-->
@@ -123,67 +78,57 @@
 			</div>
 			<div>
 				<table align="center" style="width: 990px;">
-					<!--文件开始-->
 					<tr>
-						<td class="center">
-							<div>
-								<table>
-									<!--第一排-->
-									<tr>
-										<div style="height: 50px;"></div>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE2023%25E5%25B9%25B4%25E7%2589%2588%25E7%25A4%25BE%25E5%259B%25A2%25E7%25AB%25A0%25E7%25A8%258B.docx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社2023年版社团章程" height="64" width="64" />
-													<p>海口实验中学科技社2023年版社团章程</p>
-												</a>
-											</div>
-										</td>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E6%25A0%25A1%25E5%259B%25AD%25E7%25A7%2591%25E6%258A%2580%25E8%258A%2582%25E6%25B4%25BB%25E5%258A%25A8%25E8%25A7%2584%25E5%2588%2592%25E6%2596%25B9%25E6%25A1%2588.docx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社校园科技节活动规划方案" height="64" width="64" />
-													<p>海口实验中学科技社校园科技节活动规划方案</p>
-												</a>
-											</div>
-										</td>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E5%2585%25B3%25E4%25BA%258E%25E4%25B8%25BE%25E5%258A%259E%25E6%25A0%25A1%25E5%259B%25AD%25E7%25A7%2591%25E6%258A%2580%25E8%258A%2582%25E7%259A%2584%25E7%2594%25B3%25E8%25AF%25B7.docx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社关于举办校园科技节的申请" height="64" width="64" />
-													<p>海口实验中学科技社关于举办校园科技节的申请</p>
-												</a>
-											</div>
-										</td>
-									</tr>
-									<!--第二排-->
-									<tr>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E8%25A1%258C%25E6%2594%25BF%25E9%2583%25A8%25E5%2585%25B3%25E4%25BA%258E%25E8%25B0%2583%25E6%2595%25B4%25E7%25A4%25BE%25E5%259B%25A2%25E5%2586%2585%25E7%25BB%2584%25E7%25BB%2587%25E6%259E%25B6%25E6%259E%2584%25E7%259A%2584%25E6%258C%2587%25E7%25A4%25BA.docx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社行政部关于调整社团内组织架构的指示" height="64" width="64" />
-													<p>海口实验中学科技社关于调整社团内组织架构的指示</p>
-												</a>
-											</div>
-										</td>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E8%25A1%258C%25E6%2594%25BF%25E9%2583%25A8%25E5%2585%25B3%25E4%25BA%258E%25E8%25B0%2583%25E6%2595%25B4%25E7%25A4%25BE%25E5%259B%25A2%25E5%2586%2585%25E7%25BB%2584%25E7%25BB%2587%25E6%259E%25B6%25E6%259E%2584%25E7%259A%2584%25E6%258C%2587%25E7%25A4%25BA.docx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社行政部关于调整社团内组织架构的指示" height="64" width="64" />
-													<p>海口实验中学科技社关于信息公开的指示</p>
-												</a>
-											</div>
-										</td>
-										<td>
-											<div class="center" style="height: 150px; width: 330px;">
-												<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE2023%25E5%25B9%25B4%25E7%25BB%259F%25E7%25AD%25B9%25E4%25BC%259A%25E8%25AE%25AE.pptx&wdOrigin=BROWSELINK" target=_blank>
-													<img src="/images/UI/ppt.svg" style="vertical-align: middle;"alt="海口实验中学科技社2023年统筹会议ppt" height="64" width="64" />
-													<p>海口实验中学科技社2023年统筹会议ppt</p>
-												</a>
-											</div>
-										</td>
-									</tr>
-								</table>
+						<div style="height: 50px;"></div>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE2023%25E5%25B9%25B4%25E7%2589%2588%25E7%25A4%25BE%25E5%259B%25A2%25E7%25AB%25A0%25E7%25A8%258B.docx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社2023年版社团章程" height="64" width="64" />
+									<p>海口实验中学科技社2023年版社团章程</p>
+								</a>
+							</div>
+						</td>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E6%25A0%25A1%25E5%259B%25AD%25E7%25A7%2591%25E6%258A%2580%25E8%258A%2582%25E6%25B4%25BB%25E5%258A%25A8%25E8%25A7%2584%25E5%2588%2592%25E6%2596%25B9%25E6%25A1%2588.docx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社校园科技节活动规划方案" height="64" width="64" />
+									<p>海口实验中学科技社校园科技节活动规划方案</p>
+								</a>
+							</div>
+						</td>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E5%2585%25B3%25E4%25BA%258E%25E4%25B8%25BE%25E5%258A%259E%25E6%25A0%25A1%25E5%259B%25AD%25E7%25A7%2591%25E6%258A%2580%25E8%258A%2582%25E7%259A%2584%25E7%2594%25B3%25E8%25AF%25B7.docx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社关于举办校园科技节的申请" height="64" width="64" />
+									<p>海口实验中学科技社关于举办校园科技节的申请</p>
+								</a>
+							</div>
+						</td>
+					</tr>
+					<!--第二排-->
+					<tr>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E8%25A1%258C%25E6%2594%25BF%25E9%2583%25A8%25E5%2585%25B3%25E4%25BA%258E%25E8%25B0%2583%25E6%2595%25B4%25E7%25A4%25BE%25E5%259B%25A2%25E5%2586%2585%25E7%25BB%2584%25E7%25BB%2587%25E6%259E%25B6%25E6%259E%2584%25E7%259A%2584%25E6%258C%2587%25E7%25A4%25BA.docx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社行政部关于调整社团内组织架构的指示" height="64" width="64" />
+									<p>海口实验中学科技社关于调整社团内组织架构的指示</p>
+								</a>
+							</div>
+						</td>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE%25E8%25A1%258C%25E6%2594%25BF%25E9%2583%25A8%25E5%2585%25B3%25E4%25BA%258E%25E8%25B0%2583%25E6%2595%25B4%25E7%25A4%25BE%25E5%259B%25A2%25E5%2586%2585%25E7%25BB%2584%25E7%25BB%2587%25E6%259E%25B6%25E6%259E%2584%25E7%259A%2584%25E6%258C%2587%25E7%25A4%25BA.docx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/doc.svg" style="vertical-align: middle;"alt="海口实验中学科技社行政部关于调整社团内组织架构的指示" height="64" width="64" />
+									<p>海口实验中学科技社关于信息公开的指示</p>
+								</a>
+							</div>
+						</td>
+						<td>
+							<div class="center" style="height: 150px; width: 330px;">
+								<a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhkems-stmo.top%2F%25E5%2585%25B3%25E4%25BA%258E%25E7%25A4%25BE%25E5%259B%25A2%2F%25E4%25BF%25A1%25E6%2581%25AF%25E5%2585%25AC%25E5%25BC%2580%2F%25E6%25B5%25B7%25E5%258F%25A3%25E5%25AE%259E%25E9%25AA%258C%25E4%25B8%25AD%25E5%25AD%25A6%25E7%25A7%2591%25E6%258A%2580%25E7%25A4%25BE2023%25E5%25B9%25B4%25E7%25BB%259F%25E7%25AD%25B9%25E4%25BC%259A%25E8%25AE%25AE.pptx&wdOrigin=BROWSELINK" target=_blank>
+									<img src="/images/UI/ppt.svg" style="vertical-align: middle;"alt="海口实验中学科技社2023年统筹会议ppt" height="64" width="64" />
+									<p>海口实验中学科技社2023年统筹会议ppt</p>
+								</a>
 							</div>
 						</td>
 					</tr>

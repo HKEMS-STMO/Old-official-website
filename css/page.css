@@ -1,7 +1,7 @@
 .mingyan {
     font-family: 华文楷体;
     font-size: 24px;
-    text-align:center;
+    text-align: center;
 }
 
 .head {
@@ -21,14 +21,14 @@
     text-align: center;
 }
 
-.infor{
+.infor {
     font-size: 16px;
     text-align: center;
     font-family: 华文宋体;
     color: #931916;
 }
 
-.infob{
+.infob {
     font-size: 16px;
     text-align: center;
     font-family: 华文宋体;
@@ -36,49 +36,67 @@
 }
 
 .caption {
-    text-align:center;
+    text-align: center;
     color: #931916;
     font-size: 350%;
     font-family: 华文楷体;
- }
+}
 
- .content{
+.content {
     line-height: 10;
     margin: 50 auto;
     font-weight: 600;
     font-size: 20px;
     font-family: 华文楷体;
- }
+}
 
- .photoclick{
+.photoclick {
     text-align: center;
     font-weight: 600;
-	font-family: 华文楷体;
-	font-size: large;
- }
+    font-family: 华文楷体;
+    font-size: large;
+}
 
- .about{
+.about {
     font-size: x-large;
     font-family: 楷体;
- }
+}
 
- .about2{
+.about2 {
     font-size: large;
     font-family: 等线;
     line-height: 1.4;
- }
+}
 
-.infolink{
-	border-style: solid;
-	border-width: 1px;
-	text-align: center;
-	font-size: 200%;
+.infolink {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: 200%;
     color: black;
 }
 
-.end{
+.end {
     font-family: 华文楷体;
     font-weight: 600;
     font-size: x-large;
-    text-align:center;
+    text-align: center;
+}
+
+.thingstitle {
+    text-align: center;
+    font-family: 华文楷体;
+    font-size: xx-large;
+}
+
+.price {
+    text-align: center;
+    font-family: 新宋体;
+    font-size: x-large;
+}
+
+.yuanjia {
+    font-size: medium;
+    text-decoration: line-through;
+    color: gray;
 }
