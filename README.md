@@ -37,3 +37,5 @@ Haikou Experimental Middle School Science and Technology Club has a long history
 2023/1-2/ 重构网页，修复bug，精简网站，添加评论功能,网页模块化，修改开源协议...（代码重构计划）
 
 2023/2/24 爆改页面，删改css，简化路径，提升访问速度
+
+2023/3/4 添加游戏
