@@ -41,9 +41,10 @@ a:active{text-decoration:none;}
 
 #click{
     font-family: 华文楷体;
-    font-size: 42px;
+    font-size: 63px;
     text-align: center;
     color: white;
+	cursor:pointer;
 }
 #red{
     color: red;
@@ -101,14 +102,15 @@ a:active{text-decoration:none;}
 			</div>
 			<!--页眉结束-->
 			<div id="FocusBG">
-				<div id="click">
+				<div style="height: 150px;" onselectstart="return false"></div>
+				<div id="click" onselectstart="return false">
 					<a id="btn1">
 						<div id="rcolor">请点此抽取颜色</div>
 					</a>
 					<script type="text/javascript">
 						var btn = document.getElementById("btn1");
 						btn1.addEventListener('click',function(){
-							var rcolor1 = ['<div id="red">红色</div>','<div id="orange">橙色</div>','<div id="yellow">黄色</div>','<div id="green">绿色</div>','<div id="blue">蓝色</div>','<div id="purple">紫色</div>','<div id="black">黑色</div>','<div id="white">白色</div>','<div id="white">白色</div>'];
+							var rcolor1 = ['<div id="red">红色</div>','<div id="orange">橙色</div>','<div id="yellow">黄色</div>','<div id="green">绿色</div>','<div id="blue">蓝色</div>','<div id="purple">紫色</div>','<div id="black">黑色</div>','<div id="white">白色</div>','<div id="white">再来一遍！</div>'];
 							var rcolor2 = rcolor1[Math.floor(Math.random()*rcolor1.length)];
 							rcolor.innerHTML = rcolor2;
 							var FocusBG=document.getElementById('FocusBG').style.backgroundImage=bg3();
