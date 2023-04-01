@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="UTF-8">
-<meta name="keywords" content="海口实验中学科技社, 王千学, 打地鼠">
-<meta name="description" content="《千学打地鼠》是由海口实验中学科技社自主研发的一款同人恶搞游戏。游戏发生在一个被称作海口实验中学的幻想世界，在这里，被科技社选中的人将被授予千学之锤，引导科技之力。你将扮演一位名为玩家的神秘角色，在自由的打击中进行发泄。" />
-<meta name="viewport" content="user-scalable=0">
-<title>千学打地鼠 - 实高科技社  HKEMS-STMO</title>
-<link rel="shortcut icon" href="/logo.png"/>
-<link rel="stylesheet" href="index.css">
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!--Microsoft clarity-->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "f4serx3lgw");
+    </script>
+    <!--Microsoft clarity-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="海口实验中学科技社, 王千学, 打地鼠">
+    <meta name="description"
+        content="《千学打地鼠》是由海口实验中学科技社自主研发的一款同人恶搞游戏。游戏发生在一个被称作海口实验中学的幻想世界，在这里，被科技社选中的人将被授予千学之锤，引导科技之力。你将扮演一位名为玩家的神秘角色，在自由的打击中进行发泄。" />
+    <meta name="viewport" content="user-scalable=0">
+    <title>千学打地鼠 - 实高科技社 HKEMS-STMO</title>
+    <link rel="shortcut icon" href="/logo.png" />
+    <link rel="prefetch" href="audio/music.mp3" />
+    <link rel="stylesheet" type="text/css" id="links" href="Loading.css" />
+    <script type="text/javascript">
+        setTimeout(function () { loadtime(); }, 4000);  //4秒加载缓冲
+        function loadtime() {
+            document.getElementById('count').innerHTML = "得分 为0";
+            var sc = document.getElementById("links");
+            if (window.screen.width > 1024) //获取屏幕的的宽度
+            {
+                sc.setAttribute("href", "indexpc.css"); //电脑
+                sc.setAttribute("scr", "index.js");
+            }
+            else {
+                sc.setAttribute("href", "index.css"); //手机
+                sc.setAttribute("scr", "index.js");
+            }
+        }
+    </script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </head>
+
 <body>
-<audio src="https://attachment.0sm.com/node0/2022/12/863A5A04A1156DF7-c4aeee43efc9379b.mp3" autoplay="autoplay" loop="loop"></audio>
-<section>
-</section>
-<h1><span id="count">得分 为0</span></h1>
-<div id="dazhong"></div>
-<script src="jquery.js"></script>
-<script src="index.js"></script>
+    <div class="loading"></div>
+    <div class="load">加 载 中</div>
+    <div>
+        <section></section>
+        <h1><span id="count"></span></h1>
+        <div id="dazhong"></div>
+    </div>
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+        setTimeout(function () { addScript(); }, 4000);
+        function addScript() {
+            var script = document.createElement('script');
+            script.setAttribute('type', 'text/javascript');
+            script.setAttribute('src', 'index.js');
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+    </script>
+    </div>
 </body>
+
 </html>

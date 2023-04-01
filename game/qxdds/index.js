@@ -1,5 +1,8 @@
+const audio = new Audio('audio/music.mp3');
+audio.play();
+
 for(var i=1;i<17;i++){
-    $('section').append('<div></div>');
+    $('section').append('<div onselectstart="return false"></div>');
     
 }
 $('section div').append("<img class='hole' src='image/hole.png'  >");
@@ -25,10 +28,10 @@ setInterval(function(){
       object=$('section div:nth-of-type('+(index+1)+') .mouse')
    
       object.slideDown();
-      object.delay(2000).slideUp();
+      object.delay(500).slideUp();
     }
     
-},2000);
+},1000);
 
 
 // score 记录敲到千学的分数
@@ -41,5 +44,5 @@ $('.mouse').click(function(){
     $('#dazhong').append('<audio src="audio/dazhong.mp3" autoplay="autoplay" ></audio>');
     setTimeout(function(){
         $('#dazhong').empty();
-    },2000);
+    },1000);
 });

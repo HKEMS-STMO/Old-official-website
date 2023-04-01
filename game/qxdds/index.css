@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-    background-image:url("/images/up_images/qxdds.jpg");
+    background-image:url("image/bg.jpg");
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
 section{
     width: 760px;
     height: 400px;
-    margin-top: 0px;
+    margin-top: 300px;
 }
 section div{
     width: 160px;
@@ -37,7 +37,8 @@ section div{
     z-index: 10;
     position: absolute;
     bottom:25px;
-    left: 28px;
+    left: 22px;
+    bottom: 30px;
      
 }
 
@@ -57,4 +58,12 @@ section div{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     
+}
+
+#fill{
+    height: 500px;
+}
+
+.load{
+    font-size: 0%;
 }
