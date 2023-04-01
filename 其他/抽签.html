@@ -113,13 +113,6 @@ a:active{text-decoration:none;}
 							var rcolor1 = ['<div id="red">红色</div>','<div id="orange">橙色</div>','<div id="yellow">黄色</div>','<div id="green">绿色</div>','<div id="blue">蓝色</div>','<div id="purple">紫色</div>','<div id="black">黑色</div>','<div id="white">白色</div>','<div id="white">再来一遍！</div>'];
 							var rcolor2 = rcolor1[Math.floor(Math.random()*rcolor1.length)];
 							rcolor.innerHTML = rcolor2;
-							var FocusBG=document.getElementById('FocusBG').style.backgroundImage=bg3();
-							function bg3(){
-								if(rcolor2 == '<div id="red">红色</div>'){
-									a = "url('/logo.png')";
-								}
-								return a;
-							}
 						},false)
 					</script>
 				</div>
