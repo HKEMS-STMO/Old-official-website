@@ -51,3 +51,5 @@ Haikou Experimental Middle School Science and Technology Club has a long history
 2023/3/25 为社团日添加抽签工具页。
 
 2023/4/2 千学打地鼠大受欢迎，爆改更新。
+
+2023/4/7 壮举！！！！开始重新编写基于Bootstrap V5.0 与 jQuery V3.64的现代化移动自适应科技社网站
