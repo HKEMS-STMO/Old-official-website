@@ -1,1 +1,2 @@
 User-agent:*Allow:/
+Sitemap:https://hkems-stmo.top/sitemap.txt
