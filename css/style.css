@@ -1,7 +1,4 @@
 /* main block*/
-html{
-	filter: grayscale(95%)
-}
 #body .MainBlock{
 	font-size:12px;
 	width:980px;
